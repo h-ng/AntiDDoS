@@ -87,5 +87,4 @@ switch(readCookie('challenge')) {
 		}
 die();
 }
-}
 ?>
