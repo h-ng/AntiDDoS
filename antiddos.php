@@ -5,11 +5,10 @@ function hash_password($password)
   $hashed_password = hash("SHA256", $password . key);
   return $hashed_password;
 }
-if(!$_COOKIE['challenge'] == hash_password('passed')){
+if($_COOKIE['challenge'] != hash_password('passed')){
 ?>
-<script async="" defer="" type='text/javascript'>
+<script async="" defer="">
 window.onload=async function(){
-
 async function setCookie(name, value, maxAgeSeconds) {
 	var maxAgeSegment = await "; max-age=" + maxAgeSeconds;
 	document.cookie = await encodeURI(name) + "=" + await encodeURI(value) + await maxAgeSegment;
@@ -30,7 +29,6 @@ setTimeout(async function(){
 	await location.reload();
 }, 800);
 };
-
 </script>
 <?php
 die();
