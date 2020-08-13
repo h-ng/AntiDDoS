@@ -1,6 +1,7 @@
 # AntiDDoS
-AntiDDoS system, AntiDDoS programmed system. AntiDDoS written in PHP.
 
-This simple page can help prevent most attacks on websites. 
+Original AntiDDoS changed for use is php-basic-cms (hngCMS) 
 
-Enter include ('antiddos.php'); on every page you want to protect.
+**Please Note**
+
+Only the text was changed, the original system and functionality was by lucadev.tk, I only changed the text
