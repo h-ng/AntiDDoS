@@ -1,6 +1,6 @@
 # AntiDDoS
 
-Original AntiDDoS changed for use is php-basic-cms (hngCMS) 
+Original AntiDDoS changed for use is php-basic-cms (hngCMS), You can change options in config/config.php to change what this page says
 
 **Please Note**
 
